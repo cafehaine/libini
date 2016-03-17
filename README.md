@@ -11,6 +11,7 @@ I recommend you read the wikipedia page about INI files, in order to understand 
 - Then create a Ini object using `yourIni = Ini("pathToYourIni")`
 - Load it: `yourIni:Load()` (you will need it to read anything from the ini file)
 - Get the value of some keys! `value = yourIni:GetKey("aSection","aKey")`
+
 ## List of all the fuctions:
 ### `Ini(path)`
 Returns an Ini object, linked to the ini file located at `path`.
